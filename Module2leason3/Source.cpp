@@ -8,6 +8,7 @@
 void main()
 {
 	setlocale(LC_ALL, "rus");
+	srand(time(NULL));
 	
 	int n = 0;
 
@@ -15,7 +16,6 @@ void main()
 	{
 		printf("n = ");
 		scanf("%d", &n);
-		srand(time(NULL));
 
 		if (n == 1) {
 			printf("1.	ќпределить, €вл€етс€ ли данное целое число четным\n");
